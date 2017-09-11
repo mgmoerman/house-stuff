@@ -1,3 +1,3 @@
 # house-stuff
 
-some handy scripts to push kwh & temp sensors in various datasources
+some handy scripts to push kwh from gpio & temp sensors from 1wire/i2c into various datasources
