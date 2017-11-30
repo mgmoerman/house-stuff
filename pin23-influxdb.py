@@ -65,5 +65,5 @@ while True:
 	  print influxvalues
 	  print url
 	  requests.post(url,influxvalues)
-	processcounter = processcounter + 1
+	processcounter += 1
 	print "DEBUG: counter:",counter,"oldcounter:",oldcounter,"newtime:",newtime,"timedelta:",timedelta,"hourdelta:",hourdelta
